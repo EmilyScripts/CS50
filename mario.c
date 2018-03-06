@@ -24,7 +24,13 @@ int main(void)
         }
 
         // print hashes, count from index of zero
-        for (int numberOfHashes = 0; numberOfHashes < i + 2; numberOfHashes++) {
+        for (int numberOfHashes = 0; numberOfHashes < i + 1; numberOfHashes++) {
+            printf("#");
+        }
+
+        printf("  ");
+
+        for (int numberOfHashes = 0; numberOfHashes < i + 1; numberOfHashes++) {
             printf("#");
         }
         printf("\n");
